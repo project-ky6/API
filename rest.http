@@ -1,0 +1,63 @@
+#               categories
+
+GET http://localhost:5000/api/categories
+
+###
+#id BLRuy6hO4FlSgsAjXUE4
+GET http://localhost:5000/api/categories/BLRuy6hO4FlSgsAjXUE4
+
+
+#               branches
+###
+GET http://localhost:5000/api/branches
+
+
+###
+# id: PBae0aJqGcBH20zcyGUs
+GET http://localhost:5000/api/branches/PBae0aJqGcBH20zcyGUs
+
+#               users
+###
+GET http://localhost:5000/api/users
+###
+GET http://localhost:5000/api/users/96RHYax4zMXk7Wh27282LYxd0eX2
+
+#               Auth
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "hunght001",
+    "password": "123"
+}
+
+###
+POST http://localhost:5000/api/auth/sigin
+Content-Type: application/json
+
+{
+  "Username": "hunght003",
+  "Name": "Hùng Trần 2",
+  "CreatedAt": {
+    "seconds": 1649610000,
+    "nanoseconds": 0
+  },
+  "IsMember": true,
+  "PhoneNumber": "+840366625406",
+  "Password": "123"
+}
+
+#               coffees
+###
+GET http://localhost:5000/api/coffees
+
+
+###
+GET http://localhost:5000/api/coffees/dqwdqwdqwdwq
+
+
+
+#               carts
+###
+GET http://localhost:5000/api/carts
